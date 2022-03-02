@@ -1,7 +1,7 @@
 //Add handlers and middleware functions to create, read, update, and list dishes.  Dishes CANNOT be deleted
 
-
 const path = require("path");
+const { router } = require("../app");
 
 // Use the existing dishes data
 const dishes = require(path.resolve("src/data/dishes-data"));
@@ -10,3 +10,4 @@ const dishes = require(path.resolve("src/data/dishes-data"));
 const nextId = require("../utils/nextId");
 
 // TODO: Implement the /dishes handlers needed to make the tests pass
+
